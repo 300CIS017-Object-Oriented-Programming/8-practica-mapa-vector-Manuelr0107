@@ -15,3 +15,10 @@ void Videojuego::mostrar() {
     std::cout << "Juego: " << nombre << " codigo: " << codigo
     << " genero: " << genero << " nivel de dificultad (1-5): " << nivelDificultad << std::endl;
 }
+
+std::string Videojuego::getcodigo() {return codigo; }
+
+int Videojuego::getnivelDificultad() {return nivelDificultad; }
+
+std::string Videojuego::getgenero() {return genero; }
+

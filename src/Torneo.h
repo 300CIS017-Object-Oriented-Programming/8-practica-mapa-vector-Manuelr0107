@@ -9,10 +9,11 @@
 
 class Torneo {
 private:
-    std::map(std::string nombre , Videojuego*) videojuegosDisponibles;
-    std::map(std::string , Jugador*) jugadoresRegistrados;
+    std::map<std::string , Videojuego*> videojuegosDisponibles;
+    std::map<std::string , Jugador*> jugadoresRegistrados;
 
 public:
+    ~Torneo();  //Destructor//
     void registrarVideojuego();
     void registrarJugador();
     void inscribirJugadorEnVideojuego();

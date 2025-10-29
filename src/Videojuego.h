@@ -17,6 +17,10 @@ public:
     Videojuego(std::string &codigo, std::string &nombre,std::string &genero, int &nivelDificultad);
 
     void mostrar();
+    std::string getcodigo();
+    int getnivelDificultad();
+
+    std::string getgenero();
 
 
 
